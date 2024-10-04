@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex</title>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/aos.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page">
+    
+<!-- Чтобы весь контент подключался в дефолтный шаблон  -->
+
+    <div class="complex-header">
+        <!-- Header -->
+        <header class="header fix-block">
+            <div class="container__header">
+                <div class="header__wrapper">
+                    <a class="header__wrapper-logo" href="#">
+                        <div class="header__wrapper-logo_img">
+                        </div>
+                    </a>
+                    <div class="header__wrapper-content">
+                        <nav>
+                            <ul class="header__wrapper-item">
+                                <li class="header__wrapper-item_inner">
+                                    <a class="header__wrapper-item_link nav-1" href="#">элеваторный комплекс</a>
+                                </li>
+                                <li class="header__wrapper-item_inner">
+                                    <a class="header__wrapper-item_link nav-2" href="#">услуги</a>
+                                </li>
+                                <li class="header__wrapper-item_inner">
+                                    <a class="header__wrapper-item_link nav-3" href="#">география</a>
+                                </li>
+                                <li class="header__wrapper-item_inner">
+                                    <a class="header__wrapper-item_link nav-4" href="#">важная информация</a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                        <div class="header__wrapper-social">
+                            <a class="header__wrapper-social_networks header__wrapper-social_networks-vk" href="#">
+                                <svg width="100%" height="100%" viewBox="0 0 27 17" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                                    <path d="M14.7003 17C5.47552 17 0.215784 10.6301 0 0.0136112H4.63936C4.78771 7.79904 8.18631 11.0929 10.8836 11.7734V0.0136112H15.2398V6.72378C17.8966 6.43795 20.7018 3.3755 21.6459 0H25.9885C25.6344 1.74732 24.9271 3.40217 23.9107 4.86117C22.8943 6.32017 21.5908 7.55196 20.0814 8.47958C21.7658 9.32567 23.2533 10.5225 24.4459 11.9912C25.6384 13.4599 26.5089 15.167 27 17H22.2123C21.1873 13.7742 18.6249 11.2698 15.2398 10.9295V17H14.7138H14.7003Z" fill="#009439" />
+                                  </svg>
+                            </a>
+                            <a class="header__wrapper-social_networks header__wrapper-social_networks-telegram" href="#">
+                                <svg width="100%" height="100%" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.2097 0.150081C19.2097 0.150081 21.1523 -0.585776 20.9904 1.20131C20.9365 1.93717 20.4508 4.51267 20.0731 7.29843L18.778 15.5506C18.778 15.5506 18.6701 16.7595 17.6987 16.9697C16.7274 17.1799 15.2704 16.2339 15.0006 16.0236C14.7847 15.8659 10.9534 13.5007 9.60431 12.3443C9.22655 12.0289 8.79486 11.3982 9.65826 10.6623L15.3244 5.40624C15.9719 4.77549 16.6195 3.30378 13.9213 5.09086L6.36655 10.0842C6.36655 10.0842 5.50315 10.6098 3.8843 10.1368L0.376711 9.08552C0.376711 9.08552 -0.918395 8.29711 1.29408 7.50865C6.69035 5.03826 13.3278 2.51532 19.2097 0.150081Z" fill="#009439" />
+                                </svg>
+                            </a>
+                            <a class="header__wrapper-social_networks header__wrapper-social_networks-mail btn-modal" data-modal="connection">
+                                <svg width="100%" height="100%" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.6172 9.44971L23.3096 16.1558C23.3827 15.9156 23.4228 15.6609 23.4228 15.3971V2.64453L15.6172 9.44971Z" fill="#009439" />
+                                    <path d="M11.7099 10.24C12.0396 10.2393 12.3645 10.126 12.6298 9.89514L22.8534 0.982547C22.3765 0.384363 21.643 0 20.8185 0H2.60126C1.77677 0 1.04327 0.384318 0.566406 0.982547L10.7899 9.89514C11.0549 10.126 11.3801 10.2393 11.7099 10.24Z" fill="#009439" />
+                                    <path d="M0 2.64453V15.3971C0 15.6609 0.0400283 15.9156 0.113131 16.1558L7.80552 9.44935L0 2.64453Z" fill="#009439" />
+                                    <path d="M13.6994 11.1212C13.1307 11.6172 12.4185 11.867 11.7107 11.8663C11.0028 11.867 10.2902 11.6168 9.72187 11.1212L9.04276 10.5293L1.05859 17.4897C1.49076 17.8089 2.02348 18.0002 2.60204 18.0002H20.8193C21.3978 18.0002 21.9305 17.8089 22.3627 17.4897L14.3785 10.5293L13.6994 11.1212Z" fill="#009439" />
+                                </svg>
+                            </a>
+                        </div>
+        
+                        <!-- <div class="header__wrapper-dropdown dropdown">
+                            <button class="header__wrapper-dropdown_btn dropbtn">RU</button>
+                            <ul class="header__wrapper-dropdown_content dropdown-content">
+                                <li class="header__wrapper-dropdown_content-link">RU</li>
+                                <li class="header__wrapper-dropdown_content-link" >EN</li>
+                            </ul>
+                        </div> -->
+            
+                        <div class="header__wrapper-menu btn-modal" data-modal="menu">меню</div>
+                    </div>
+                </div>  
+            </div>
+        
+        <!-- Модальные окна -->
+            <div class="overlay">
+                <div class="modal pop-up_menu js-modal" data-modal="menu">
+                    <div class="modal__close">
+                        <img class="modal__close-img" src="img/close.svg" alt="close">
+                    </div>
+                    <div class="pop-up_menu__content">
+                        <div class="pop-up_menu__content-inner">
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    главная
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px nav-1" href="#">
+                                    элеваторный комплекс
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px nav-2 " href="#">
+                                    услуги
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    О компании
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    партнеры проекта
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    виртуальный тур
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                        </div>
+                        <div class="pop-up_menu__content-inner">
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    наши компании
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-wrapper">
+                                <div class="pop-up_menu__content-list open-news">
+                                    <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                        пресс-центр
+                                    </a>
+                                    <span class="pop-up_menu__content-list_arrow"></span>
+                                </div>
+                                <div class="pop-up_menu__content-wrapper_news">
+                                    <a class="pop-up_menu__content-wrapper_news-internal text-regular-18px-17px" href="#">Новости компании</a>
+        
+                                    <a class="pop-up_menu__content-wrapper_news-internal text-regular-18px-17px" href="#">СМИ о нас</a>
+                                </div>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    устойчивое развитие
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    раскрытие информации
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    карьера с нами
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                            <div class="pop-up_menu__content-list">
+                                <a class="pop-up_menu__content-list_link text-regular-19px-16px" href="#">
+                                    контакты
+                                </a>
+                                <span class="pop-up_menu__content-list_circle"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up_menu__contact">
+                        <a class="pop-up_menu__contact-link" href="tel:+73832645447">
+                            <img class="pop-up_menu__contact-link_phone" src="img/phone.svg" alt="phone">
+                            <p class="text-light-16px-14px">+7 (383) 264-54-47</p> 
+                        </a>
+                        <a class="pop-up_menu__contact-link" href="mailto:info@metelitca.ru">
+                            <img class="pop-up_menu__contact-link_mail"  src="img/modal-mail.png" alt="mail">
+                            <p class="text-light-16px-14px pop-up_menu__contact-link_text">info@metelitca.ru</p> 
+                        </a>
+                        <div class="pop-up_menu__contact-social">
+                            <a href="#" class="pop-up_menu__contact-icon">
+                                <img class="pop-up_menu__contact-icon_img-vk" src="img/vk-header.svg" alt="vk">
+                            </a>
+                            <a href="#" class="pop-up_menu__contact-icon">
+                                <img class="pop-up_menu__contact-icon_img-telegram" src="img/telegram-header.svg" alt="telegram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="modal connection js-modal" data-modal="connection">
+                    <div class="modal__close">
+                        <img class="modal__close-img" src="img/close.svg" alt="close">
+                    </div>
+                    <div class="connection__content">
+                        <h2 class="text-bold-30px-21px">обратная связь</h2>
+                        <form class="form">
+                            <div class="form__item">
+                                <label class="form-label" for="name">ваше имя</label>
+                                <input id="name" type="text" class="form-input" required placeholder="Иванов Иван Иванович">
+                            </div>
+                            <div class="form__item">
+                                <label class="form-label" for="phone">Номер телефона</label>
+                                <input id="phone" type="text" class="form-input tel" required placeholder="+7 (999) 999-99-99">
+                            </div>
+                            <div class="form__item">
+                                <label class="form-label" for="email">Ваш e-mail</label>
+                                <input id="email" type="email" class="form-input" required placeholder="mail@domain.ru">
+                            </div>
+                            <div class="form-file">
+                                <div class="form-file_box">
+                                    <input type="file" id="upload" accept=".doc,.pdf" hidden>
+                                    <label for="upload" class="form-file__upload form-">
+                                        <img class="form-upload_img" src="img/addendum.svg" alt="">
+                                        <span class="text-regular-16px">Приложить файл</span>
+                                    </label>
+                                </div>
+                                <div class="form-file_wrapper" id="form-file_wrapper">
+                                    <!-- <div class="form-file_wrapper-box">
+                                        <div class="form-file_wrapper-box_left">
+                                            <span class="form-file_wrapper-box_img"></span>
+                                            <p>Ravi web.pdf</p>
+                                        </div>
+                                        <div class="right">
+                                            <span>&#215;</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="form__item form__item-textarea">
+                                <label class="form-label" for="email">Ваш вопрос</label>
+                                <textarea class="form-textarea" id="textarea"></textarea>
+                            </div>
+                            <button class="form__btn">
+                                отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="modal requisites js-modal" data-modal="requisites">
+                    <div class="modal__close">
+                        <img class="modal__close-img" src="img/close.svg" alt="close">
+                    </div>
+                    <div class="requisites_wrapp">
+                        <h2 class="requisites_wrapp-titel text-bold-30px-21px">реквизиты компании</h2>
+                        <div class="requisites_wrapp-info">
+                            <h3 class="text-bold-18px">ООО «МЕТЕЛИЦА»</h3>
+                            <div class="contact-wrapper_quantity-inner">
+                                <div class="contact-wrapper_quantity-inner_text">
+                                    <h4 class="text-bold-16px-15px_lower">ИНН</h4>
+                                    <p class="text-regular-16px-15px">5429110151</p>
+                                </div>
+                                <div class="contact-wrapper_quantity-inner_text">
+                                    <h4 class="text-bold-16px-15px_lower">КПП</h4>
+                                    <p class="text-regular-16px-15px">542901001</p>
+                                </div>
+                                <div class="contact-wrapper_quantity-inner_text">
+                                    <h4 class="text-bold-16px-15px_lower">Адрес:</h4>
+                                    <p class="text-regular-16px-15px">632735, Новосибирская область, Купинский район, г. Купино,
+                                        ул. Осипенко, д. 84</p>
+                                </div>
+                                <div class="contact-wrapper_quantity-inner_text">
+                                    <h4 class="text-bold-16px-15px_lower">Генеральный директор:</h4>
+                                    <p class="text-regular-16px-15px">Тарасов Владимир Александрович</p>
+                                </div>
+                                <div class="contact-wrapper_quantity-inner_flex">
+                                    <div class="contact-wrapper_quantity-inner_flex-item">
+                                        <div class="contact-wrapper_quantity-inner_text">
+                                            <h4 class="text-bold-16px-15px_lower">Электронная почта для связи:</h4>
+                                            <a href="mailto:info@metelitca.ru" class="text-regular-16px-15px">info@metelitca.ru</a>
+                                        </div>
+                                        <div class="contact-wrapper_quantity-inner_text">
+                                            <h4 class="text-bold-16px-15px_lower">Телефон:</h4>
+                                            <a href="tel:+73832645447" class="text-regular-16px-15px">+7 383 264 54 47</a>
+                                        </div>
+                                    </div>
+                                    <img class="contact-wrapper_quantity-inner_flex-qr" src="img/qr.svg" alt="qr">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </header></div>
+    <main>
+        <!-- Симбиоз технологий, опыта и бизнес-философии! -->
+        <section class="symbiosis">
+            <div class="container_no_padding">
+                <div class="symbiosis__wrapper">
+                    <div class=" symbiosis__wrapper-descr">
+                        <h1 class="symbiosis__wrapper-descr_titel text-bold-30px-21px"  data-aos="fade-up">
+                            Симбиоз технологий, опыта <br> и бизнес-философии!
+                        </h1>
+        
+                        <h3 class="text-medium-25px-18px"  data-aos="fade-up">
+                            Метелица
+                        </h3>
+        
+                        <p class="text-regular-16px-15px"  data-aos="fade-up">Это новый, высокотехнологичный элеваторный комплекс на <span class="text-bold-green">120 000</span>  тонн бережного хранения зерновых и масличных культур со всеми сопутствующими услугами - от <span class="text-bold-green">приемки</span> авто и железнодорожным транспортом, очистки, сушки, лабораторных исследований зерновых культур, промораживании, и хранение до <span class="text-bold-green">отгрузки</span> на авто и железнодорожный транспорт.</p>
+                        <p class="text-regular-16px-15px"  data-aos="fade-up">Элеваторный комплекс оборудован инновационной автоматизированной системой управления производством, предприятием, технологическими процессами и логистикой.</p>
+    
+                        <div class="symbiosis__wrapper-descr_btn btn-modal" data-modal="requisites" data-aos="fade-up">
+                            <p class="text-medium-18px ">реквизиты компании</p>
+                            <div class="symbiosis__wrapper-descr_btn-arrow"></div>
+                        </div>
+                    </div>
+                    <div class="general__main-wrapper-photo"  data-aos="fade-left">
+                        <img class="general__main-wrapper-photo_img" src="img/symbiosis.jpg" alt="symbiosis">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- об элеваторе -->
+        <section class="elevator">
+            <div class="container__two">
+                <h2 class="elevator__titel text-bold-30px-21px"  data-aos="fade-right">об элеваторе</h2>
+    
+                <div class="elevator__rectangle rectangle" data-module="countup">
+                    <div class="elevator__rectangle-content rectangle__content">
+                        <div class="elevator__rectangle-content-item rectangle__content-item elevator_item-1">
+                            <p class="text-black-50px-30px" data-countup-number="4">4</p>
+                            <p class="text-medium-25px-15px">линии</p>
+                            <p class="elevator__rectangle-content-item_text text-regular-16px-15px" data-aos="zoom-in">пункт приема зерна с автотранспорта</p>
+                        </div>
+                        <div class="elevator__rectangle-content-item rectangle__content-item elevator_item-1">
+                            <p class="text-black-50px-30px" data-countup-number="2">2</p>
+                            <p class="text-medium-25px-15px">линии</p>
+                            <p class="elevator__rectangle-content-item_text text-regular-16px-15px" data-aos="zoom-in">одновременная приемка по 2 линиям</p>
+                        </div>
+                        <div class="elevator__rectangle-content-item rectangle__content-item elevator_item-3">
+                            <p class="text-black-50px-30px" data-countup-number="200">200</p>
+                            <p class="text-medium-25px-15px">т/час</p>
+                            <p class="elevator__rectangle-content-item_text text-regular-16px-15px" data-aos="zoom-in">производительность каждой линии приемки</p>
+                        </div>
+                        <div class="elevator__rectangle-content-item rectangle__content-item elevator_item-1">
+                            <p class="text-black-50px-30px" data-countup-number="2">2</p>
+                            <p class="text-medium-25px-15px">линии</p>
+                            <p class="elevator__rectangle-content-item_text text-regular-16px-15px" data-aos="zoom-in">одновременная выгрузка по 2 линиям</p>
+                        </div>
+                        <div class="elevator__rectangle-content-item rectangle__content-item elevator_item-3">
+                            <p class="text-black-50px-30px" data-countup-number="400">400</p>
+                            <p class="text-medium-25px-15px">т/час</p>
+                            <p class="elevator__rectangle-content-item_text text-regular-16px-15px" data-aos="zoom-in">производительность каждой линии выгрузки</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Загрузка элеватор Выгрузка элеватора-->
+        <section class="сommon-elevator">
+            <div class="container">
+                <div class="сommon-elevator__line">
+                    <h2 class="сommon-elevator__titel text-bold-30px-21px" data-aos="fade-down-right">загрузка элеватора</h2>
+        
+                    <div class="сommon-elevator__container сommon-elevator__loading">
+                        <div class="сommon-elevator__container-wrapp">
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="500" data-aos="fade-right">
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px">Пункт приема зерна с автотранспорта</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/loading-1.jpg" alt="loading">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px">всего 4 линии, одновременная приемка по 2 линиям, производительность каждой линии 200 т/час</p>
+                            </div>
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="300" data-aos="fade-right">
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px">Пункт приема зерна с ж/д транспорта</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/loading-2.jpg" alt="loading">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px">всего 4 линии, одновременная приемка по 2 линиями, производительность каждой линии 200 т/час</p>
+                            </div>
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="100" data-aos="fade-right">
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px">Силосы</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/loading-3.jpg" alt="loading">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px">MYSiLO (Турция)</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <h2 class="сommon-elevator__titel text-right text-bold-30px-21px" data-aos="fade-down-left">выгрузка элеватора</h2>
+        
+                    <div class="сommon-elevator__container сommon-elevator__discharge">
+                        <div class="сommon-elevator__container-wrapp">
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="100" data-aos="fade-left" >
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px text-right">Пункт отгрузки зерна в автотранспорт</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/discharge-1.jpg" alt="discharge">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px text-right">всего 6 линий, одновременная отгрузка по двум линиям, производительность каждой линии 400 т/час</p>
+                            </div>
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="300" data-aos="fade-left">
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px text-right">Пункт отгрузки зерна в ж/д транспорт</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/discharge-2.jpg" alt="discharge">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px text-right">всего 4 линии, одновременная отгрузка по двум линиям, производительность 400 т/час каждая</p>
+                            </div>
+                            <div class="сommon-elevator__container-inner"  data-aos-delay="500" data-aos="fade-left">
+                                <h4 class="сommon-elevator__container-inner_titel text-medium-25px-18px text-right">Пункт отгрузки неиспользуемых отходов на автотранспорт</h4>
+                                <img class="сommon-elevator__container-inner_img" src="img/discharge-3.jpg" alt="discharge">
+                                <p class="сommon-elevator__container-inner_text text-regular-16px-15px text-right">всего 2 линии, по 1 бункеру, производительность 60 т/час каждая</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    
+        <!-- концепция проекта -->
+    
+        <section class="concept">
+            <div class="container_no_padding">
+                <div class="concept__wrapper">
+                    <div class="concept__wrapper-photo" data-aos="zoom-in-down">
+                        <img class="concept__wrapper-photo_img" src="img/concept.jpg" alt="concept">
+                    </div>
+                    <h2 class="concept__wrapper-titel text-bold-30px-21px" data-aos="zoom-in-left">концепция проекта</h2>
+                    <div class="concept__wrapper_quantity" data-module="countup" data-aos="zoom-in-left">
+                        <div class="concept__wrapper_quantity-inner">
+                            <p class="text-black-50px-30px" data-countup-number="120000">120 000</p>
+                            <p class="text-medium-25px-15px">тонн</p>
+                            <p class="text-regular-16px-15px">новых емкостей</p>
+                        </div>
+                        <div class="concept__wrapper_quantity-inner">
+                            <p class="text-black-50px-30px" data-countup-number="45000">45 000</p>
+                            <p class="text-medium-25px-15px">тонн</p>
+                            <p class="text-regular-16px-15px">инфраструктуры</p>
+                        </div>
+                    </div>
+                    <div class="concept__wrapper_text" data-aos="zoom-in-left">
+                        <p class="text-regular-16px">
+                            По проекту планируется строительство новых емкостей на 120 000 тонн бережного хранения зерновых и масличных культур и реконструкция существующего элеватора в г. Купино Новосибирской области емкостью 45 000 тонн с инфраструктурой, а также железнодорожной инфраструктуры необщего пользования.
+                        </p>
+                        <p class="text-regular-16px">
+                            По проекту планируется строительство новых емкостей на 120 000 тонн бережного хранения зерновых и масличных культур и реконструкция существующего элеватора в г. Купино Новосибирской области емкостью 45 000 тонн с инфраструктурой, а также железнодорожной инфраструктуры необщего пользования.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <section class="grain-crops" data-aos="zoom-in-down">
+            <div class="container__two">
+                <h1 class="grain-crops__titel text-bold-30px-21px">зерновые культуры</h1>
+                <div class="grain-crops__line">
+                    <div class="grain-crops_wrapper">
+                        <a href="/grains/pshenitsa/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Пшеница</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/01-pshenitca-2.jpg" alt="partners">
+                            </div>
+                        </a>
+                        <a href="/grains/rozh/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Рожь</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/04-rozh-2.jpg" alt="partners">
+                            </div>
+                        </a>
+                        <a href="/grains/sorgo/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Сорго</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/03-sorgo-2.jpg" alt="partners">
+                            </div>
+                        </a>
+                        <a href="/grains/podsolnechnik/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Подсолнечник</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/05-podsolnechnik-2.jpg" alt="partners">
+                            </div>
+                        </a>
+                        <a href="/grains/raps/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Рапс</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/06-raps-2.jpg" alt="partners">
+                            </div>
+                        </a>
+                        <a href="/grains/yachmen/" class="grain-crops_wrapper-item">
+                            <h3 class="text-medium-25px-18px">Ячмень</h3>
+                            <div class="grain-crops_wrapper-item_photo">
+                                <img class="grain-crops_wrapper-item_photo-img" src="img/02-yachmen-1.jpg" alt="partners">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__shell">
+                <div class="footer__shell-column footer__shell-column-1">
+                    <a href="#" class="footer__shell-column_logo">
+                        <img class="footer__shell-column_logo-img" src="img/logo-footer.png" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__shell-column footer__shell-column-2">
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Главная</a>
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Элеваторный комплекс</a>
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Услуги</a>
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">О компании</a>
+                </div>
+                <div class="footer__shell-column footer__shell-column-3">
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Раскрытие информации</a>
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Виртуальный тур</a>
+                    <a href="#" class="footer__shell-column_link text-light-14px-13px">Контакты</a>
+                </div>
+                <div class="footer__shell-column footer__shell-column-4">
+                    <p class="text-light-14px-13px">ООО Метелица</p>
+                    <p class="footer__shell-column_adress text-light-14px-13px">
+                        632735, Новосибирская область, Купинский район, 
+                        г. Купино, ул. Осипенко, д. 84
+                    </p>
+                    <div class="footer__shell-flex">
+                        <div class="footer__shell-column">
+                            <div class="text-light-14px-13px">ИНН 5429110151</div>
+                            <div class="text-light-14px-13px">Генеральный директор</div>
+                        </div>
+                        <div class="footer__shell-column">
+                            <div class="text-light-14px-13px">КПП 5429010011</div>
+                            <div class="text-light-14px-13px">Тарасов Владимир Александрович</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__shell-column_contact">
+                    <a href="tel:+73832645447" class="footer__shell-column_contact-item text-light-14px-13px">
+                        <img class="footer__shell-column_contact-item_img footer__shell-column_contact-item_img-phone" src="img/phone.png" alt="phone">
+                        <p>
+                            +7 (383) 264-54-47
+                        </p>
+                    </a>
+                    <a href="mailto:info@metelitca.ru" class="footer__shell-column_contact-item text-light-14px-13px">
+                        <img class="footer__shell-column_contact-item_img footer__shell-column_contact-item_img-mail" src="img/mail.png" alt="mail">
+                        <p>
+                            info@metelitca.ru
+                        </p>
+                    </a>
+                    <div class="footer__shell-column_social">
+                        <a href="#" class="footer__shell-column_social-network footer__shell-column_social-network_vk text-light-14px-13px">
+                            <img class="footer__shell-column_social-img" src="img/vk.svg" alt="vk">
+                        </a>
+                        <a href="#" class="footer__shell-column_social-network footer__shell-column_social-network_telegram text-light-14px-13px">
+                            <img class="footer__shell-column_social-img" src="img/telegram.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__bottom-text">&copy; ООО Метелица 2024</p>
+                <a href="https://avt.digital/" class="footer__bottom-logo">
+                    <img class="footer__bottom_img lozad" src="img/x.png" data-src="img/footer-bottom.png" alt="index">
+                    <p class="footer__bottom-logo-avt">Разработано AVT Digital</p>
+                </a>
+            </div>
+        </div>
+    </footer>    
+    <script src="js/lazy.min.js"></script>
+    <script src="js/aos.min.js"></script>
+    <script src="js/animate.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ellipsis.min.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
